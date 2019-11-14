@@ -23,6 +23,12 @@ public class DB {
         // set ResultSet with sql syntax
         Statement stm = conn.createStatement();
         DB.sql = stm.executeQuery(sql);
+        
+        /**
+        while (DB.sql.next()) {
+            get field with DB.sql
+        }
+        */
     }
     
     public static void execute(String sql) throws SQLException {
