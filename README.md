@@ -1,6 +1,6 @@
 ## Easy MySQL JDBC
 
-######Library to make MySQL JDBC easier
+Library to make MySQL JDBC easier
 
 ### Required
 
@@ -28,20 +28,19 @@
 
 #### Primary
 ##### data
-###### SQL data Container
     String id = DB.data.getString("id")
+SQL data Container
 
 <br>
 ##### query(String query)
-###### get data from SQL
 	DB.query("SELECT * FROM TEST")
+get data from SQL
 
 <br>
 ##### execute(String query)
-###### execute query to manipulating MySQL datas
     DB.execute("INSERT INTO test (id, name) VALUES(NULL, 'Galuh')");
+ execute query to manipulating MySQL datas
 
-<br>
 <br>
 #### Configuration
 ##### setHost(String host)
