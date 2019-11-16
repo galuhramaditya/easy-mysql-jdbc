@@ -31,34 +31,34 @@ Library to make MySQL JDBC easier
     String id = DB.data.getString("id")
 SQL data Container
 
-<br>
+
 #### query(String query)
 	DB.query("SELECT * FROM TEST")
 get data from SQL
 
-<br>
+
 #### execute(String query)
     DB.execute("INSERT INTO test (id, name) VALUES(NULL, 'Galuh')");
  execute query to manipulating MySQL datas
 
-<br>
+
 ### Configuration
 #### setHost(String host)
     DB.data.setHost("localhost")
 
-<br>
+
 #### setPort(int port)
     DB.data.setPort(3306)
 
-<br>
+
 #### setDatabase(String database)
     DB.data.setDatabase("test")
 
-<br>
+
 #### setUsername(String username)
     DB.data.setUsername("root")
 
-<br>
+
 #### setPassword(String password)
     DB.data.setPassword("")
 
@@ -74,7 +74,6 @@ get data from SQL
     	System.out.println(DB.data.getString("id"));
     }
 
-<br>
 #### Insert data
     
 	DB.execute("DELETE FROM test WHERE id = 1");
