@@ -74,7 +74,7 @@ Library to make MySQL JDBC easier
     	System.out.println(DB.data.getString("id"));
     }
 
-#### Insert data
+#### Delete data
     
 	DB.execute("DELETE FROM test WHERE id = 1");
     
