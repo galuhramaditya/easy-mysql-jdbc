@@ -1,21 +1,21 @@
-## Easy MySQL JDBC
+# Easy MySQL JDBC
 
 Library to make MySQL JDBC easier
 
-### Required
+## Required
 
 - **MySQL JDBC Driver**
 
 ------------
 
 
-#### How to add
+### How to add
 1. Add library by **jar** or **copy** `galuh` package
 2. Set the configuration in one place or `main method` ****once enough!***
 
 ------------
 
-#### Default MySQL Config
+### Default MySQL Config
 - host				: localhost
 - port				: 3306
 - database		:
@@ -24,49 +24,49 @@ Library to make MySQL JDBC easier
 
 ------------
 
-### Features
+## Features
 
-#### Primary
-##### data
+### Primary
+#### data
     String id = DB.data.getString("id")
 SQL data Container
 
 <br>
-##### query(String query)
+#### query(String query)
 	DB.query("SELECT * FROM TEST")
 get data from SQL
 
 <br>
-##### execute(String query)
+#### execute(String query)
     DB.execute("INSERT INTO test (id, name) VALUES(NULL, 'Galuh')");
  execute query to manipulating MySQL datas
 
 <br>
-#### Configuration
-##### setHost(String host)
+### Configuration
+#### setHost(String host)
     DB.data.setHost("localhost")
 
 <br>
-##### setPort(int port)
+#### setPort(int port)
     DB.data.setPort(3306)
 
 <br>
-##### setDatabase(String database)
+#### setDatabase(String database)
     DB.data.setDatabase("test")
 
 <br>
-##### setUsername(String username)
+#### setUsername(String username)
     DB.data.setUsername("root")
 
 <br>
-##### setPassword(String password)
+#### setPassword(String password)
     DB.data.setPassword("")
 
 
 ------------
 
-### Examples
-##### Get datas
+## Examples
+#### Get datas
 
     DB.query("SELECT * FROM test");
     
@@ -75,12 +75,12 @@ get data from SQL
     }
 
 <br>
-##### Insert data
+#### Insert data
     
 	DB.execute("DELETE FROM test WHERE id = 1");
     
 
 ------------
 
-## Contact
+# Contact
 - email : galuh.ramaditya@gmail.com
