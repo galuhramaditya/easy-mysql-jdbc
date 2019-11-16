@@ -29,17 +29,17 @@ Library to make MySQL JDBC easier
 ### Primary
 #### data
     String id = DB.data.getString("id")
-SQL data Container
+> SQL data Container
 
 
 #### query(String query)
 	DB.query("SELECT * FROM TEST")
-get data from SQL
+> get data from SQL
 
 
 #### execute(String query)
     DB.execute("INSERT INTO test (id, name) VALUES(NULL, 'Galuh')");
- execute query to manipulating MySQL datas
+>  execute query to manipulating MySQL datas
 
 
 ### Configuration
