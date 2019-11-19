@@ -10,7 +10,7 @@ Library to make MySQL JDBC easier
 
 
 ### How to add
-1. Add library by **jar** or **copy** `galuh` package
+1. Add library by **jar/folder** or **copy** `galuh` folder **to** your **package**
 2. Set the configuration in one place or `main method` ****once enough!***
 
 ------------
